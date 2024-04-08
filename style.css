@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 11.5%;
+    padding-top: 21px;
+    padding-bottom: 19px;
+}
+
+.logo {
+    width: 111.22px;
+    height: 18px;
+}
+
+.nav_div {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    gap: 25px;
+}
+
+.aa {
+    color: #837D88;
+    font-size: 13px;
+
+}
+
+.button1 {
+    width: 146px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.burger {
+    display: none;
+}
+
+.section1 {
+    background-color: #2D2641;
+    display: flex;
+    width: 100%;
+    padding: 0 165px;
+    padding-top: 105px;
+    position: relative;
+}
+
+.section1_text {
+    width: 45%;
+    padding-bottom: 105px;
+}
+
+.section1_img {
+    position: absolute;
+    top: 45px;
+    right: 32px;
+}
+
+hr {
+    width: 150px;
+    height: 1px;
+}
+
+.hh1 {
+    font-size: 72px;
+    color: white;
+}
+
+.pp {
+    font-size: 16px;
+    margin-top: 16px;
+    color: white;
+}
+
+.button2 {
+    width: 146px;
+    height: 40px;
+    border: 1px solid rgb(247, 246, 246);
+    background-color: transparent;
+    color: white;
+    margin-top: 24px;
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+.decoration {
+    position: absolute;
+    top: -190px;
+}
+
+.div_sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    padding: 18% 11.5%;
+    padding-bottom: 0;
+
+}
+
+.p2 {
+    font-size: 72px;
+    color: #2C2830;
+    font-weight: 64px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 350px;
+}
+
+.p1 {
+    color: #2C2830;
+    font-size: 28px;
+    margin-top: 32px;
+}
+
+.p3 {
+    color: #837D88;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.sec3 {
+    background-image: url(./assets/images/Insure/bgimg.png);
+    background-repeat: no-repeat;
+    padding: 69px 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 165px;
+    margin-top: 158px;
+}
+
+.p33 {
+    font-size: 56px;
+    font-weight: 400;
+    color: white;
+}
+
+.button3 {
+    padding: 12.5px 24.5px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+footer {
+    background-image: url(./assets/images/Insure/decor.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 64px 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_foot {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.bottom_foot {
+    display: flex;
+    gap: 30px;
+}
+
+.foot_box {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+
+}
+
+.p5 {
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.bottom_foot-t {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.p6 {
+    color: #2D2641;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+@media(max-width:430px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav_div {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 183px;
+        padding: 31px 24px;
+    }
+
+    .section1 {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    .section1_img{
+        right: 0.1px;
+        top: 0;
+    }
+
+    .section1_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 544px;
+        text-align: center;
+        padding: 93px 24px;
+        gap: 16px;
+    }
+
+    .section1_img {
+        position: none;
+    }
+
+    .hh1 {
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    }
+
+
+    .decoration {
+        display: none;
+    }
+
+    .div_sec2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 41px 24px;
+    }
+
+    .p2 {
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .p3 {
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec3 {
+        flex-direction: column;
+        width: 327px;
+        margin: 140px 24px;
+        padding: 0 24px;
+        padding-bottom: 72px;
+        padding-top: 32px;
+        gap: 40px;
+    }
+
+    .p33 {
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: center;
+
+    }
+
+    .foot {
+        padding: 88px 24px;
+        gap: 40px;
+    }
+
+    .top_foot,
+    .bottom_foot {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .foot_box,
+    .bottom_foot-t {
+        text-align: center;
+    }
+}
